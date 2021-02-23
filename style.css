@@ -1,0 +1,286 @@
+h1, h2, h3 {
+    font-family: 'Rubik', Sans-Serif;
+    line-height: 100px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  body, p, header {
+    font-family: 'Karla', Sans-Serif;
+    font-size: 20pt;
+    margin: 10px;
+ }
+
+ header {
+    width:100vw;
+    top:0;
+    right:0;
+    height: 100px;
+}
+
+a { text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a:hover {
+    border-bottom: 4px solid white;
+}
+
+nav a { color: white;}
+
+.nav li {
+    padding-right: 25px;
+    color: white;
+    z-index: 1;
+}
+
+.nav {
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+/* Home Page */
+.flexcontainer h1 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 30pt;
+    top: 35px;
+}
+
+.flexcontainer {
+   display: flex 100%;
+   position: relative; 
+   top: 20px;
+   text-align: center;
+   font-family: 'Karla', Sans-Serif;
+   font-size: 15pt;
+}
+
+.home-page .bottom-bg { 
+    background-image: url('images/bottomelements-06.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -2;
+    }
+
+.home-page .nav-bg {
+    background-image: url('images/navbarelements-06.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    }
+
+
+/* Rainforest */
+.flexcontainer2 h1{
+        font-family: 'Rubik', Sans-Serif;
+        font-size: 30pt;
+        top: 40px;
+}
+
+.flexcontainer2 {
+    display: flex 100%;
+    position: relative;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+    left: 275px;
+ }
+
+ .rainforest-page .bottom-bg { 
+    background-image: url('images/bottomelements-09.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -2;
+}
+
+.rainforest-page .left-bottom-bg { 
+    background-image: url('images/rainforestimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    bottom:0;
+    height: 100vh;
+    width: 60vw;
+    z-index: 1;
+}
+
+.rainforest-page .nav-bg {
+    background-image: url('images/navbarelements-09.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+/* Deciduous */
+.flexcontainer3 h1 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 30pt;
+    top: 45pt;
+}
+
+.flexcontainer3 {
+    display: flex 100%;
+    position: relative; 
+    top:20px;
+    left: 340px;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+}
+
+.deciduous-page .bottom-bg {
+            background-image: url('images/bottomelements-08.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 100vh;
+            width: 100vw;
+            z-index: -2;
+        }
+.deciduous-page .left-bottom-bg { 
+            background-image: url('images/deciduousimg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 100vh;
+            width: 60vw;
+            z-index: 1;
+        }
+.deciduous-page .nav-bg {
+            background-image: url('images/navbarelements-08.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+        }
+
+/* Coniferous */
+.flexcontainer4 h1 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 30pt;
+    top:60px;
+    }
+
+.flexcontainer4 {
+    display: flex 100%;
+    position: relative; 
+    top: 25px;
+    left: 290px;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+    }
+.coniferous-page .bottom-bg { 
+    background-image: url('images/bottomelements-10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+.coniferous-page .left-bottom-bg{ 
+    background-image: url('images/coniferousimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 60vw;
+}
+
+.coniferous-page .nav-bg {
+    background-image: url('images/navbarelements-10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+     
+
+/* How to Help */
+.flexcontainer5 h1 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 30pt;
+    left: 13px;
+    top: 30px;
+    }
+
+.flexcontainer5 {
+    display: flex 100%;
+    position: relative; 
+    left: 100px;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+    }
+
+.howtohelp-page .bottom-bg { 
+    background-image: url('images/bottomelements-07.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.howtohelp-page .nav-bg {
+    background-image: url('images/navbarelements-07.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
